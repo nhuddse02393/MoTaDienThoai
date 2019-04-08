@@ -77,7 +77,6 @@ let message = "Hello!";
 
 if(nokia.checkStatus() && iphone.checkStatus()){
     nokia.typeMes(message);
-    r
     nokia.sendMes(message);
     iphone.receiveMes(message);
     alert(iphone.readInbox());
